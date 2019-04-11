@@ -20,3 +20,7 @@ t[2][0]=1
 t[2][1]=0
 print(t)
 # tuple的元素确实变了，但其实变的不是tuple的元素，而是list的元素。
+
+List=[1,2,3]
+List.remove(3)
+print(List)
