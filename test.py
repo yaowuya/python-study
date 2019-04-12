@@ -8,3 +8,7 @@
 # print(int(one),"*",int(two),"=",int(one)*int(two))
 L=[1,2,3,4]
 print([L[i] + L[i + 1] for i in range(3)])
+
+for i in L:
+    pass
+print(i)
