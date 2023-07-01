@@ -24,3 +24,21 @@ print(b)
 # 还有一种除法是//，称为地板除，两个整数的除法仍然是整数
 print(10 / 3, ' ', 9 / 3)
 print(10 // 3, '', 10 % 3)
+
+
+# 整数
+int=20;
+# 浮点数
+float=2.3;
+print(int)
+print(float)
+print(pow(2,5))
+print(2**5)
+
+# 字符串
+print("abc")
+print('I\'m \"OK\"!')
+print('I\'m ok.')
+print('I\'m learning\nPython.')
+print('\\\n\\')
+

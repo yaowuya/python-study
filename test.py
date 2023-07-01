@@ -1,7 +1,8 @@
+# print('hello')
 # print('hello, world', '小明', 'hi')
 # print(100*200+2)
-# name=input("please enter your name: ")
-# print("hello,",name)
+name=input("please enter your name: ")
+print("hello,",name)
 
 # one=input("please input firstnum: ")
 # two=input("please input secondnum: ")
@@ -13,5 +14,5 @@
 #     pass
 # print(i)
 
-L=[{"name":"123","age":123},{"name":"45","age":123}]
-print(L)
+# L=[{"name":"123","age":123},{"name":"45","age":123}]
+# print(L)

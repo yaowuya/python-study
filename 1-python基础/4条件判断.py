@@ -1,3 +1,4 @@
+# 根据Python的缩进规则，如果if语句判断是True，就把缩进的两行print语句执行了，否则，什么也不做
 age = 20
 if age >= 6:
     print('teenager')
@@ -5,6 +6,23 @@ elif age >= 18:
     print('adult')
 else:
     print('kid')
+
+# if判断条件还可以简写，只要x是非零数值、非空字符串、非空list等，就判断为True，否则为False。
+x=True
+if x:
+    print('True')
+    
+"""
+用户身份验证
+"""
+username = input('请输入用户名: ')
+password = input('请输入口令: ')
+# 用户名是admin且密码是123456则身份验证成功否则身份验证失败
+if username == 'admin' and password == '123456':
+    print('身份验证成功!')
+else:
+    print('身份验证失败!')
+
 
 '''
 小明身高1.75，体重80.5kg。请根据BMI公式（体重除以身高的平方）帮小明计算他的BMI指数，并根据BMI指数：

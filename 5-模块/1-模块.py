@@ -18,6 +18,18 @@ def test():
 
 if __name__ =='__main__':
     test()
+    
+
+def foo():
+    print('hello, world!')
+
+
+def foo():
+    print('goodbye, world!')
+
+
+# 下面的代码会输出什么呢？
+foo()
 
 '''
 正常的函数和变量名是公开的（public），可以被直接引用，比如：abc，x123，PI等；
@@ -40,3 +52,6 @@ def greeting(name):
         return _private_1(name)
     else:
         return _private_2(name)
+
+
+
