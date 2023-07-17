@@ -54,7 +54,7 @@ print(t)
 
 List=[1,2,3]
 List.remove(3)
-print(List)
+print(tuple(List))
 
 
 

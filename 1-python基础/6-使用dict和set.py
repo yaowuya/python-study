@@ -33,3 +33,10 @@ s2 = set([2, 3, 4])
 # 两个set可以做数学意义上的交集、并集等操作
 print(s&s2,s|s2)
 
+s3=set()
+s3.add("a")
+print(s3)
+
+bb=None
+if bb is None:
+    print(bb)

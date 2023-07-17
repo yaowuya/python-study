@@ -7,10 +7,14 @@
 """
 用for循环实现1~100求和
 """
-sum = 0
-for x in list(range(101)):
-    sum += x
-print(sum)
+def count_sum(n):
+    sum = 0
+    for x in list(range(n+1)):
+        sum += x
+    return sum
+
+print(count_sum(100))
+print(count_sum(200))
 # 我们要计算100以内所有奇数之和
 sum = 0
 n = 99
@@ -29,14 +33,14 @@ print('END')
 
 # 如果我们想只打印奇数
 
-# x = 0
-# list = []
-# while x < 20:
-#     x += 1
-#     if x % 2 == 0:
-#         continue
-#     list.append(x)
-# print(list)
+x = 0
+list = []
+while x < 20:
+    x += 1
+    if x % 2 == 0:
+        continue
+    list.append(x)
+print(list)
 
 
 """
